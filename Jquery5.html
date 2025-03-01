@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<title>Jquery</title>
+
+<script src="Jquery.min.js"></script>
+
+
+</head>
+<body>
+
+<p id="text">Text Fade out or Fade In</p>
+<button id="fade">Click for Action</button>
+
+
+<script type="text/javascript">
+
+var textshow = true;
+
+$("#fade").click(function(){
+
+  if(textshow==true){
+
+    $("#text").fadeOut();
+    textshow = false;
+  }
+
+  else{
+    $("#text").fadeIn(); 
+  }
+  
+
+})
+
+</script>
+  
+</body>
+
+</html>

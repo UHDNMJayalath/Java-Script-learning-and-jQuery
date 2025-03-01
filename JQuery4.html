@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<title>Jquery</title>
+
+<script src="Jquery.min.js"></script>
+
+<style>
+  #text2{
+    display: none;
+  }
+</style>
+
+</head>
+<body>
+
+<p id="text1">First Text Fade out</p>
+<button id="fadeOut">Fade Out</button>
+
+<p id="text2">First Text Fade In</p>
+<button id="fadeIn">Fade In</button>
+
+
+
+<script type="text/javascript">
+
+$("#fadeOut").click(function(){
+  $("#text1").fadeOut();
+})
+
+$("#fadeIn").click(function(){
+  $("#text2").fadeIn();
+})
+
+
+</script>
+  
+</body>
+</html>
